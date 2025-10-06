@@ -120,7 +120,23 @@ void task_4() {
     
 }
 
-
+void task_6(){
+    std::cout << "enter SYM: ";
+    char sym;
+    std::cin >> sym;
+    
+    switch (sym) {
+        case 'R':
+            std::cout << "Russia, Romania" << std::endl;
+            break;
+        case 'U':
+            std::cout << "Uzbekistan" << std::endl;
+            break;
+        default:
+            std::cout << "error" << std::endl;
+        }
+    
+}
 
 
 void task_10(){
@@ -189,6 +205,7 @@ int main() {
     //task_2();
     //task_3();
     //task_10();
-    task_4();
+    //task_4();
+    task_6();
 }
 
