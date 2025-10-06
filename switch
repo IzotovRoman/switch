@@ -1,0 +1,73 @@
+#include <iostream>
+
+void task_1() {
+    std::cout << "enter num of week-day: ";
+    int week_day = 0;
+    std::cin >> week_day;
+    
+    const int Fr = 5;
+    
+    switch (week_day) {
+        case 1:
+            std::cout << "Md" << std::endl;
+            
+            break;
+        case 2:
+            std::cout << "Th" << std::endl;
+            break;
+        case 3:
+            std::cout << "Wn" << std::endl;
+            break;
+        case 4:
+            std::cout << "Th" << std::endl;
+            break;
+        case 5:
+            std::cout << "Fr" << std::endl;
+            break;
+        case 6:
+            std::cout << "Sd" << std::endl;
+            break;
+        case 7:
+            std::cout << "Sun" << std::endl;
+            break;
+        default:
+            std::cout << "error" << std::endl;
+        
+   }
+    
+}
+
+void task_2(){
+    std::cout << "enter SYM: ";
+    char sym;
+    std::cin >> sym;
+    
+    switch (sym) {
+        case '+':
+            std::cout << "+plus" << std::endl;
+            break;
+        case '-':
+            std::cout << "minys-" << std::endl;
+            break;
+        case '*':
+            std::cout << "*ymnozh" << std::endl;
+            break;
+        case '/':
+            std::cout << "/podelit" << std::endl;
+            break;
+        default:
+            std::cout << "error" << std::endl;
+        }
+    
+}
+
+
+int main() {
+    // task_1();
+    task_2();
+    
+}
+
+
+
+    
