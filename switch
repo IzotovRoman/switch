@@ -85,6 +85,42 @@ void task_3(){
     
 }
 
+void task_4() {
+    std::cout << "enter SYM: ";
+    char sym;
+    std::cin >> sym;
+    
+    std::cout << "enter num_0: ";
+    int num_0;
+    std::cin >> num_0;
+    
+    std::cout << "enter num_1: ";
+    int num_1;
+    std::cin >> num_1;
+    
+    
+    switch (sym) {
+        case '+':
+            std::cout << num_0 + num_1 << std::endl;
+            break;
+        case '-':
+            std::cout << num_0 - num_1 << std::endl;
+            break;
+        case '*':
+            
+            std::cout << num_0 * num_1 << std::endl;
+            break;
+        case '/':
+            
+            std::cout << num_0 / num_1 << std::endl;
+            break;
+        default:
+            std::cout << "error" << std::endl;
+    }
+    
+}
+
+
 
 
 void task_10(){
@@ -148,15 +184,11 @@ void task_10(){
     
 }
 
-
-
 int main() {
     // task_1();
     //task_2();
     //task_3();
-    task_10();
+    //task_10();
+    task_4();
 }
 
-
-
-    
