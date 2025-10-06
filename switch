@@ -139,6 +139,8 @@ void task_6(){
 }
 
 
+
+
 void task_10(){
     char symbol;
     
@@ -200,12 +202,57 @@ void task_10(){
     
 }
 
+
+
+void task_11() {
+    int number;
+    
+    std::cout << "celoe chislo: ";
+    std::cin >> number;
+    
+    std::string result = (number % 2 == 0) ? "chet" : "ne chet";
+    
+    std::cout << "vvedennoe chisl yavlaetsya " << result << std::endl;
+    
+
+}
+
+void task_12() {
+    
+    int num1, num2, max;
+    
+    std::cout << "vvedite pervoe chislo: ";
+    std::cin >> num1;
+    
+    std::cout << "vvedite vtoroe chislo: ";
+    std::cin >> num2;
+    
+    max = (num1 > num2) ? num1 : num2;
+    
+    std::cout << "max chislo: " << max << std::endl;
+    
+}
+
+
+void task_13() {
+    bool value = true; 
+    
+    std::string result = (value) ? "yes" : "no";
+    
+    std::cout << "log znachenie : " << std::boolalpha << value << std::endl;
+    std::cout << "preobrazov znachenie: " << result << std::endl;
+    
+}
+
 int main() {
     // task_1();
     //task_2();
     //task_3();
     //task_10();
     //task_4();
-    task_6();
+    //task_6();
+    //task_11();
+    //task_12();
+    task_13();
 }
 
